@@ -5,7 +5,8 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "InfoVital",
-  description: "Aplicação inovadora que combina monitoramento de saúde com acesso às principais notícias em saúde em tempo real",
+  description:
+    "Aplicação inovadora que combina monitoramento de saúde com acesso às principais notícias em saúde em tempo real",
 };
 
 export default function RootLayout({
@@ -14,10 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+    <html lang="pt-br">
+      <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      </head>
+      <body className={`antialiased`}>
+
         {children}
       </body>
     </html>
