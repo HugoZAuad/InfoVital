@@ -4,8 +4,8 @@ import "./globals.css";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "CineMusic",
-  description: "Aqui você encontra os melhores filmes e musicas",
+  title: "InfoVital",
+  description: "Aplicação inovadora que combina monitoramento de saúde com acesso às principais notícias em saúde em tempo real",
 };
 
 export default function RootLayout({
