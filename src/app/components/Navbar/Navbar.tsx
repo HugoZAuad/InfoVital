@@ -4,15 +4,15 @@ import ButtonE from "../ButtonE/ButtonE";
 export default function Navbar() {
   return (
     <main>
-      <nav className="flex bg-blue-400 shadow-lg ">
-        <div className="flex justify-start">
-          <section className="flex p-2 items-center">
+      <nav className="flex bg-blue-400 shadow-xl shadow-blue-200">
+        <div >
+          <section>
             <Image
-              className="m-2 rounded-full w-25 h-25"
+              className="m-2 rounded-full"
               src="/InfoVital.png"
               alt="InfoVitalLogo"
-              width={100}
-              height={100}
+              width={80}
+              height={80}
             />
           </section>
         </div>
@@ -36,6 +36,7 @@ export default function Navbar() {
 
         <div className="flex justify-center items-center p-3">
           <ButtonE />
+          
         </div>
       </nav>
     </main>
