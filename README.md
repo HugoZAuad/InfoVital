@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InfoVital
 
-## Getting Started
+InfoVital é uma aplicação web inovadora desenvolvida com Next.js que combina monitoramento de saúde e acesso a notícias atualizadas em tempo real. Projetado para oferecer uma experiência interativa e personalizada, o InfoVital promove bem-estar e informação diretamente ao alcance do usuário.
 
-First, run the development server:
+## Índice
 
-```bash
+- [InfoVital](#infovital)
+  - [Índice](#índice)
+  - [Visão Geral](#visão-geral)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Instalação](#instalação)
+  - [Uso](#uso)
+  - [Dependências](#dependências)
+
+## Visão Geral
+
+Objetivos do Projeto:
+1. Facilitar o monitoramento de saúde: Acompanhar métricas essenciais como pressão arterial, frequência cardíaca e atividades físicas por meio de integração com APIs de saúde.
+2. Manter os usuários informados: Apresentar notícias relevantes em um único espaço, garantindo acesso rápido e confiável às atualizações globais e locais.
+3. Promover engajamento inteligente: Criar uma experiência intuitiva e acessível com design moderno e funcionalidades avançadas.
+
+Funcionalidades Principais:
+1. Monitoramento de Saúde Personalizado: Visualize métricas de saúde em tempo real com gráficos interativos e históricos detalhados.
+
+2. Integração de Notícias: Receba notícias baseadas em suas preferências e localização diretamente na interface principal.
+
+3. Interface Responsiva: Funciona perfeitamente em dispositivos móveis e desktops, oferecendo usabilidade excepcional.
+
+4. Sistema de Autenticação: Usuários podem acessar com segurança seus dados por meio da autenticação.
+
+5. Gestão de Preferências: Personalize notificações de saúde e filtros de notícias para atender às suas necessidades.
+
+6. Animações Elegantes: Implementadas com Framer Motion para uma experiência visual atraente.
+
+## Tecnologias Utilizadas
+
+- Next.js 15.2.3
+- React 19.0.0
+- TypeScript 5.8.2
+- Tailwind CSS 4.0.15
+- React Query (Tanstack Query) 5.69.0
+- NextAuth.js 4.24.11
+- Framer Motion 12.5.0
+- Zod 3.24.2
+- ESLint 9.22.0
+- Prettier 3.5.3
+
+## Instalação
+
+Para instalar o projeto, siga estes passos:
+
+1. Clone o repositório:
+git clone - https://github.com/HugoZAuad/InfoVital.git
+
+2. Navegue até o diretório do projeto:
+cd InfoVital
+
+3. Instale as dependências:
+npm install
+
+## Uso
+
+Para iniciar o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O aplicativo estará disponível em `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ## Scripts Disponíveis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+No diretório do projeto, você pode executar:
 
-## Learn More
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Constrói o aplicativo para produção.
+- `npm start`: Inicia o servidor de produção.
+- `npm run lint`: Executa a verificação de linting.
 
-To learn more about Next.js, take a look at the following resources:
+## Dependências
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Principais dependências do projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- @fortawesome/react-fontawesome
+- @tanstack/react-query
+- axios
+- framer-motion
+- next
+- next-auth
+- react
+- react-dom
+- react-hook-form
+- spotify-web-api-node
+- zod
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para uma lista completa de dependências, consulte o arquivo `package.json`.
