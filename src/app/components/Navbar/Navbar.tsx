@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <main>
       <nav className="flex bg-blue-400 shadow-xl shadow-blue-200">
-        <div >
+        <div>
           <section>
             <Image
               className="m-2 rounded-full"
@@ -23,10 +23,7 @@ export default function Navbar() {
               <a href="/">Inicio</a>
             </li>
             <li className="mr-5 hover:text-blue-900 transition duration-400">
-              <a href="/Ultimas">Ultimas 24Hrs</a>
-            </li>
-            <li className="mr-5 hover:text-blue-900 transition duration-400">
-              <a href="/Dicas">Dicas para sua saúde</a>
+              <a href="/IMC">Calculadora IMC</a>
             </li>
             <li className="mr-5 hover:text-blue-900 transition duration-400">
               <a href="/Monitor">Monitore sua saúde</a>
@@ -36,7 +33,6 @@ export default function Navbar() {
 
         <div className="flex justify-center items-center p-3">
           <ButtonE />
-          
         </div>
       </nav>
     </main>
