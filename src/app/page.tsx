@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "../../src/app/components/Navbar/Navbar";
 import GNews from "./pages/GNews/GNews";
 
