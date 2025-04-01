@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ButtonE from "../ButtonE/ButtonE";
+import ButtonE from "../Buttons/ButtonEntre";
 
 export default function Navbar() {
   return (

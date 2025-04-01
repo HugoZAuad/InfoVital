@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import ButtonS from '../../components/ButtonS/ButtonS';
-import ArrowL from '@/app/components/Arrows/ArrowL';
-import ArrowR from '@/app/components/Arrows/ArrowR';
+import ButtonS from '../../components/Buttons/ButtonSaiba';
+import ArrowL from '../../components/Arrows/ArrowL';
+import ArrowR from '../../components/Arrows/ArrowR';
 
 interface Article {
   title: string;
