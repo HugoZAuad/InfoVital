@@ -1,14 +1,13 @@
-import Navbar from "../../src/app/components/Navbar/Navbar";
-
+import Input from "./components/Inputs/Inputs";
 import GNews from "./pages/GNews/GNews";
 
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      
       <GNews />
-
+      <Input />
     </div>
   );
 }

@@ -32,7 +32,6 @@
 }
 
 body {
-  background: var(--color-bgWhite);
   color: var(--color-textBlack);
   margin: 0;
   padding: 0;
