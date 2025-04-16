@@ -28,8 +28,6 @@ export default function RootLayout({
               width={150}
               height={150}
             />
-            <h1 className="font-extrabold text-2xl text-blue-100">A REDE DE NOTICIAS PARA A SUA SAÚDE!</h1>
-
         {children}
       </body>
     </html>

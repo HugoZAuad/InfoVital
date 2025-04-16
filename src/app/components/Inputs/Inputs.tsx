@@ -3,7 +3,7 @@ import ButtonCal from "@/app/components/Buttons/ButtonCal";
 export default function Input() {
   return (
     <main>
-      <div>
+      <div className="items-center justify-center">
         <h1 className="ml-50 text-blue-100 font-bold text-2xl">
           Para calcular o seu IMC informe o que é pedido abaixo
         </h1>
